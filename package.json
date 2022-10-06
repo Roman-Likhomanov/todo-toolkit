@@ -16,6 +16,7 @@
     "@types/react-dom": "^16.9.0",
     "@types/react-redux": "^7.1.9",
     "@types/react-router-dom": "^5.1.5",
+    "@types/storybook-react-router": "^1.0.0",
     "@types/uuid": "^7.0.3",
     "axios": "^0.19.2",
     "formik": "^2.1.5",
@@ -26,7 +27,7 @@
     "react-scripts": "3.4.1",
     "redux": "^4.0.5",
     "redux-thunk": "^2.3.0",
-    "typescript": "4.8.4",
+    "typescript": "^4.8.4",
     "uuid": "^8.0.0"
   },
   "scripts": {
@@ -34,6 +35,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
+    "storybook-debug": "start-storybook -p 9009 -s public --no-dll",
     "storybook": "start-storybook -p 9009 -s public",
     "build-storybook": "build-storybook -s public",
     "jest:integration": "jest -c integration/jest.config.js",
@@ -64,6 +66,10 @@
     "jest-image-snapshot": "^4.0.2",
     "jest-puppeteer": "^4.4.0",
     "puppeteer": "^5.1.0",
-    "start-server-and-test": "^1.11.2"
+    "start-server-and-test": "^1.11.2",
+    "storybook-react-router": "^1.0.0"
+  },
+  "resolutions": {
+    "@types/react": "^16 || ^17"
   }
 }
