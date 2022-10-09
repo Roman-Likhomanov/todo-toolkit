@@ -31,7 +31,7 @@ function App({demo = false}: PropsType) {
     const dispatch = useDispatch()
 
     useEffect(() => {
-        if(!demo) {
+        if (!demo) {
             dispatch(initializeAppTC())
         }
     }, [])
