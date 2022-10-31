@@ -5,7 +5,8 @@
 :white_check_mark: Redux Toolkit  
 :white_check_mark: TS  
 :white_check_mark: Functional components  
-:white_check_mark: Hooks   
+:white_check_mark: Hooks  
+:white_check_mark: Routes
 :white_check_mark: Rest API  
 :white_check_mark: Formik  
 :white_check_mark: MUI  
